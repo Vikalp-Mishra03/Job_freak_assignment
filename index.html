@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Freak</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="left-panel">
         <a id="home-link" href="#" onclick="showContent('home')">Home</a>
@@ -17,17 +19,79 @@
     <div id="content">
         <div id="home" class="content">
             <h1>Welcome to the Home Page</h1>
-            <p>This is the content for the Home page.</p>
+            <p>This is the content for the Home page.</p> <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque voluptatibus aperiam, optio illo dolores iusto praesentium, non debitis voluptatem hic deserunt quas ullam quisquam assumenda officia. Nulla enim cum facere officia quos tempore at maxime id, incidunt in eos, natus, rerum modi reiciendis similique nobis expedita eligendi dolores dolorum dicta quam veniam. Tenetur molestiae perferendis consequatur magnam! Corporis quas officia tenetur ratione fuga vitae quaerat aspernatur excepturi explicabo aperiam quos doloremque voluptatum, aut eos doloribus. Iusto deleniti nesciunt, sequi voluptatem hic aliquid repellendus porro tempora illo numquam sint. Libero vitae debitis tempore molestiae, maxime cum sunt id repellendus delectus.</p>
         </div>
 
         <div id="contact" class="content" style="display: none;">
             <h1>Contact Information</h1>
             <p>This is the contact information.</p>
+            <div class="container1">
+                <div class="contact-us">
+                    <div class="get-in-touch">
+                        <h4>Head Office</h4>
+                        <div class="location">
+                            <i class="fa fa-home"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae,
+                                tempora!</p>
+                        </div>
+                        <div class="location">
+                            <i class="fa fa-envelope-o"></i>
+                            <p>contact@example.com</p>
+                        </div>
+                        <div class="location">
+                            <i class="fa fa-phone"></i>
+                            <p>+91 6395XXXXX9</p>
+                        </div>
+                        <div class="location">
+                            <i class="fa fa-clock"></i>
+                            <p>Monday to Satuarday 10:00 AM to 07:00 PM</p>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="email">
+                        <div class="contact-col" id="contact">
+                            <!-- <label for="">Name</label> -->
+                            <h2>Contact Us</h2>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <br>
+                            <br>
+                            <!-- <label for="">E-mail</label> -->
+                            <input type="email" name="email" placeholder="Enter Email Address" required>
+                            <br>
+                            <br>
+                            <!-- <label for="">Write your Problem</label> -->
+                            <input type="text" name="subject" placeholder="Enter your subject" required>
+                            <br>
+                            <br>
+                            <!-- <label for="">Write a Description</label> -->
+                            <!-- <br> -->
+        
+                            <textarea name="message" placeholder="Message" required></textarea>
+                            <br>
+                            <br>
+                            <button type="submit" class="normal">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="info" class="content" style="display: none;">
             <h1>Information</h1>
-            <p>This is some information.</p>
+            <p>This is some information about Our Company.</p>
+            <div class="about-head section-p1">
+                <img src="logo.png" alt="">
+                <div>
+                    <h2>About Us</h2>
+                    <p>At Job Freak We Post daily updates on internships and jobs postings ! !
+                        Our aim is to empower the youth of our country and make them Self-dependent. By providing them job/internships all kinds of opportunities from various sectors, sharing knowledge and make them competent enough so that they could excel in any field. If you have any query regrading Site, Advertisement and any other issue, please feel free to
+                        contact at our email <span>shyam_25@jobfreak.in</span></p>
+        
+                </div>
+            </div>
         </div>
 
         <div id="guide" class="content" style="display: none;">
@@ -37,4 +101,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
