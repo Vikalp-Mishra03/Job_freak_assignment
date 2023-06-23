@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Freak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left-panel">
+        <a id="home-link" href="#" onclick="showContent('home')">Home</a>
+        <a id="contact-link" href="#" onclick="showContent('contact')">Contact</a>
+        <a id="info-link" href="#" onclick="showContent('info')">Information</a>
+        <a id="guide-link" href="#" onclick="showContent('guide')">Guide</a>
+    </div>
+
+    <div id="content">
+        <div id="home" class="content">
+            <h1>Welcome to the Home Page</h1>
+            <p>This is the content for the Home page.</p>
+        </div>
+
+        <div id="contact" class="content" style="display: none;">
+            <h1>Contact Information</h1>
+            <p>This is the contact information.</p>
+        </div>
+
+        <div id="info" class="content" style="display: none;">
+            <h1>Information</h1>
+            <p>This is some information.</p>
+        </div>
+
+        <div id="guide" class="content" style="display: none;">
+            <h1>Guide</h1>
+            <p>This is the guide.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

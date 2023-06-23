@@ -1,0 +1,27 @@
+ /* Basic styling for the left panel */
+ #left-panel {
+    float: left;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Styling for the links in the left panel */
+#left-panel a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Styling for the active link in the left panel */
+#left-panel a.active {
+    background-color: #ccc;
+}
+
+/* Styling for the content area */
+#content {
+    margin-left: 200px;
+    /* Width of the left panel */
+    padding: 20px;
+}
