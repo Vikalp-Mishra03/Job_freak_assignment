@@ -123,6 +123,10 @@ span {
         flex-direction: column;
     }
 
+    #guide {
+        margin-top: -48px;
+    }
+
     .get-in-touch {
         width: 100%;
     }
@@ -136,7 +140,8 @@ span {
     }
 
     .location {
-        display: block;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .location p {
