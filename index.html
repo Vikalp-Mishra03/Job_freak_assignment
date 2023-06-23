@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Freak</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div id="left-panel">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <div id="left-panel" id="navLinks">
         <a id="home-link" href="#" onclick="showContent('home')">Home</a>
         <a id="contact-link" href="#" onclick="showContent('contact')">Contact</a>
         <a id="info-link" href="#" onclick="showContent('info')">Information</a>
         <a id="guide-link" href="#" onclick="showContent('guide')">Guide</a>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+        <!-- <img src="menu.png" alt="" width="40px"> -->
     </div>
 
     <div id="content">
@@ -37,7 +41,7 @@
                         </div>
                         <div class="location">
                             <i class="fa fa-envelope-o"></i>
-                            <p>contact@example.com</p>
+                            <p><span>shyam_25@jobfreak.in</span></p>
                         </div>
                         <div class="location">
                             <i class="fa fa-phone"></i>
@@ -47,8 +51,6 @@
                             <i class="fa fa-clock"></i>
                             <p>Monday to Satuarday 10:00 AM to 07:00 PM</p>
                         </div>
-        
-        
         
                     </div>
                     <div class="email">
@@ -71,7 +73,7 @@
         
                             <textarea name="message" placeholder="Message" required></textarea>
                             <br>
-                            <br>
+                            
                             <button type="submit" class="normal">Send Message</button>
                         </div>
                     </div>
@@ -96,10 +98,13 @@
 
         <div id="guide" class="content" style="display: none;">
             <h1>Guide</h1>
-            <p>This is the guide.</p>
+            <p >We guide student to the internships. They can achieve their dream internships. By applying on Company on Job Freak</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis aliquam soluta laudantium, eaque magnam incidunt id quas sit quia quisquam? Placeat quo enim veritatis excepturi dicta labore totam iste molestiae aut! Velit laboriosam magnam nulla et consectetur reprehenderit dolorum dolores natus nobis enim aliquid cumque repudiandae illum debitis, quae necessitatibus possimus facere ut numquam dignissimos praesentium quod. Perspiciatis, consequuntur optio officia explicabo nobis, totam, soluta tempora corporis exercitationem earum a. Vero excepturi soluta illum iste. Quos ut quaerat vitae praesentium, sequi, earum nostrum magnam impedit ipsam porro reprehenderit ducimus molestias quam mollitia veniam deserunt quo accusantium accusamus, recusandae et doloribus? Illum ad velit dolores dolore rem beatae, ex, voluptas enim atque nihil provident maxime dolorum tempore qui omnis necessitatibus ipsa modi adipisci sint! Esse sapiente vitae accusantium nam impedit temporibus non facilis, minus dignissimos, blanditiis debitis repellat saepe consequuntur, exercitationem officiis est rerum! Mollitia incidunt maxime dolorem neque non dolore maiores praesentium porro numquam commodi explicabo id, quibusdam voluptates iusto, voluptatibus, harum in sapiente ex ducimus adipisci. Quasi consequatur sapiente doloremque aspernatur dolore placeat aperiam odio nostrum reprehenderit labore. Veniam consequuntur quaerat, accusantium numquam porro aliquid excepturi. Quisquam voluptas ab aliquam neque excepturi nihil autem, ipsam ullam rem, necessitatibus sunt.</p>
+
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="toggle.js"></script>
 </body>
 
 </html>
